@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <TextView
+            android:text="textContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <aqua.auth.AquaPassField
+        android:hint="primo edit text"
+        android:id="@+id/dummy_editext1"
+        android:inputType="textPassword"
+        android:text="This is a really random layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <aqua.auth.AquaEmailField
+        android:hint="secondo edittext"
+        android:id="@+id/dummy_editext2"
+        android:inputType="textEmailAddress"
+        android:text="This is a really random layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <aqua.auth.ConfirmRegistrationButton
+        android:id="@+id/customButton"
+        android:text="Testing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

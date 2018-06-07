@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="email_button">
+
+                            <!--GENERAL attrs-->
+        <attr name="buttonBackgroundColor" format="reference" />
+
+
+        <!--TEXTVIEW attrs-->
+        <attr name="buttonText" format="reference" />
+        <attr name="buttonTextColor" format="reference" />
+
+        <attr name="buttonTextPadding" format="reference" />
+        <attr name="buttonTextPaddingTop" format="reference" />
+        <attr name="buttonTextPaddingBottom" format="reference" />
+        <attr name="buttonTextPaddingStart" format="reference" />
+        <attr name="buttonTextPaddingEnd" format="reference" />
+
+        <attr name="buttonTextMargin" format="reference" />
+        <attr name="buttonTextMarginTop" format="reference" />
+        <attr name="buttonTextMarginBottom" format="reference" />
+        <attr name="buttonTextMarginStart" format="reference" />
+        <attr name="buttonTextMarginEnd" format="reference" />
+
+
+                            <!--ICON attrs-->
+        <attr name="buttonIconPadding" format="reference" />
+        <attr name="buttonIconPaddingTop" format="reference" />
+        <attr name="buttonIconPaddingBottom" format="reference" />
+        <attr name="buttonIconPaddingStart" format="reference" />
+        <attr name="buttonIconPaddingEnd" format="reference" />
+
+        <attr name="buttonIconMargin" format="reference" />
+        <attr name="buttonIconMarginTop" format="reference" />
+        <attr name="buttonIconMarginBottom" format="reference" />
+        <attr name="buttonIconMarginStart" format="reference" />
+        <attr name="buttonIconMarginEnd" format="reference" />
+
+
+
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,1 @@
+include ':app', ':aqua', ':mvvp_test'
